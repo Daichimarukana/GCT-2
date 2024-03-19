@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <html lang="ja">
+    <head prefix="og:http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <!--OGPはじまり-->
+    <meta property="og:title" content="学ぶ人工知能っぽい人工無能Bot - GCT-2">
+    <meta property="og:description" content="人工無能ながら学習するやつです！みなさんとおしゃべりして成長するやつです！">
+    <meta property="og:url" content="https://gct2.daichimarukana.com">
+    <meta property="og:image" content="https://gct2.daichimarukana.com/img/ogp.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="学ぶ人工知能っぽい人工無能Bot - GCT-2">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="学ぶ人工知能っぽい人工無能Bot - GCT-2"/>
+    <meta name="twitter:description" content="みんなとおしゃべりできる人工無能Botちゃんです。"/>
+    <!--OGPここまで-->
+    <link rel="apple-touch-icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>学ぶ人工知能っぽい人工無能Bot - GCT-2</title>
+</head>
+<body>
+<header>
+    <img src="img/gct-2.png">
+    <h1>GCT-2</h1>
+</header>
+<main>
+    <br>
+    <br>
+    <br>
+    <div class="box">
+        <div class="top-zone">
+            <img src="img/top.png">
+            <p class="img-text">学びます、<br>より自然で、<br>より楽しく話しながら。</p>
+            <div class="img-text-mini">学ぶ人工知能っぽい人工無能 GCT-2</div>
+        </div>
+
+        <div class="code-zone">
+            <hr>
+            <h1>1. About GCT-2</h1>
+            <h2>GCT-2について</h2>
+
+            <div class="big_text"><span style="color:#34BFF2;">GCT-2</span>ではより自然な対話が可能になりました</div>
+            <div class="flexbox">
+                <div class="about">
+                    <h1>テキストを生成しています</h1>
+                    <p>従来のGCT-1では教育データを参考に教えられた回答をオウム返ししていただけでしたが、
+                        GCT-2からは教育データを参考に求められている返信がどのようなものかを予測して生成して返信するようになりました。
+                        <br>
+                        <br>
+                        右にあるのはGCT-1とGCT-2に"自己紹介"と送信した際の回答です。<br>
+                        GCT-1では同じ単一の回答しかできませんが、GCT-2では様々な回答をしてくれます。</p>
+                </div>
+                <div class="result">
+                    <div class="question">
+                        Q. 自己紹介
+                    </div>
+                    <hr>
+                    <div class="user">
+                        <div class="name">GCT-1</div>
+                        GCT-1です！！！
+                        教えてくれた言葉を片っ端から覚える人工無能です！
+                        MeCabによる日本語形態素解析によって関連されると予測される回答をする場合があります！誤った回答をしてしまうこともあると思われますがご了承ください。
+                    </div>
+                    <hr>
+                    <div class="gct-2">
+                        <div class="name"><span style="color:#34BFF2;">GCT-2</span></div>
+                        より自然な対話を生成できます！より高性能に文を生成できます！より高性能になりました
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="big_text">様々な回答を<span style="color:#34BFF2;">GCT-2</span>は生成できます。</div>
+            <p><span style="color:#34BFF2;">GCT-2</span>では様々な回答を生成できるため、時に関連性のない回答をすることがあります。<br>
+                これがまた、面白いのです。</p>
+            <div class="flexbox">
+                <div class="result">
+                    <div class="question">
+                        Q. りんごの魅力を説明してください
+                    </div>
+                    <hr>
+                    <div class="gct-2">
+                        <div class="name"><span style="color:#34BFF2;">GCT-2</span></div>
+                        りんごは美味しいです
+                    </div>
+                </div>
+                
+                <div class="result">
+                    <div class="question">
+                        Q. りんごの魅力を説明してください
+                    </div>
+                    <hr>
+                    <div class="gct-2">
+                        <div class="name"><span style="color:#34BFF2;">GCT-2</span></div>
+                        インプットできます。
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="big_text">教えれば教えるほど<span style="color:#34BFF2;">GCT-2</span>はしっかりした回答をしてくれます。</div>
+            <p><span style="color:#34BFF2;">GCT-2</span>ではテキストを生成する際にマルコフ連鎖っぽい技術を使っています。<br>
+                詳しい説明は省きますが、ユーザーの入力に対する適切な回答を作成するために、テキストの次に何が来るかを予測して生成しているため、沢山教育してあげると教育データも大きくなり、より予測に使えるデータが増えるためより高い精度での回答が可能になります。</p>
+            <div class="flexbox">
+                <div class="about">
+                    <h1>教育するとこのようになります。</h1>
+                    <p>右の例では知識のまったくないGCT-2に「あなたに使われている技術は何ですか？」という質問に対して「私にはマルコフ連鎖っぽい技術が使用されています。私に使われているマルコフ連鎖っぽい技術は簡単に言えば次に来るテキストをすでにあるデータから予測する仕組みです。」
+                        という回答を教育しました。<br>
+                        1回と10回では回答に大きな変化があることがわかると思います。
+                        同じ回答を教育するのではなく、似たような質問に対して様々なパターンで教育してあげると更に回答の質は向上すると思われます。
+                    </p>
+                </div>
+                
+                <div class="result">
+                    <div class="question">
+                        Q. あなたに使われている技術は何ですか？
+                    </div>
+                    <hr>
+                    <div class="user">
+                        <div class="name">1回の教育</div>
+                        あなたに使われ
+                    </div>
+                    <hr>
+                    <div class="gct-2">
+                        <div class="name"><span style="color:#34BFF2;">10回の教育</span></div>
+                        来るテキストをすでにあるデータから予測する仕組みです
+                    </div>
+                </div>
+            </div>
+
+            
+            <hr>
+            <h1>2. Problems with GCT-2</h1>
+            <h2>GCT-2の問題点</h2>
+            <p>最も大きな問題は教育に大変な手間がかかることです。<br>
+                GCT-2はGCT-1と比べて様々な回答をすることが可能になりましたが、同じ質問に対する回答を常に同じ精度ですることが苦手になりました。<br>
+                沢山様々なデータを教育してあげれば克服できる問題です。
+            </p>
+            <p>GCT-2には大変なバグがあります。<br>
+                GCT-2では最大4096トークン扱える仕様(Discord Bot版は1024トークン)となっていますが、これが故に大変なバグが起きてしまうことがあります。<br>
+                GCT-2は教育データを参考に次にくるテキストをトークン単位で予測してテキストを生成し、終助詞や助動詞が検出されると生成を停止して返信する仕組みとなっています。<br>
+                この、終助詞もしくは助動詞が検出されないと最大トークン数までテキストの生成をしてしまいます。<br>
+                これにより、似たような文字の羅列ができてしまうことがあります。
+            </p>
+
+            <hr>
+            <h1>3. How to provide</h1>
+            <h2>提供方法</h2>
+            <p>現在以下の方法でGCT-2は提供されています。<br>
+                - Discord Bot
+            </p>
+
+            <hr>
+            <h1>3. How to use</h1>
+            <h2>使用方法</h2>
+            <p>Discord Bot版ではGCT-2を使う皆さんに教育を行っていただく仕組みとなっています！<br>
+                導入して頂いたサーバー事にデータは用意されず、導入されている複数のサーバーでデータは共有されるものとなっています。<br>
+                例として、"山田サーバー"で"りんごについて"教育がされた場合、後から導入された"Bananaサーバー"でも"りんごについて"の回答が"山田サーバー"で教えられたことをもとにして生成されるイメージです。<br>
+                具体的なDiscord上での使用方法と注意事項を記載しますので、最後までお読みください。
+            </p>
+            <h1>3-1. 教育データが既にある場合</h1>
+            <p>@GCT-2でメンションし、その後に続いて質問や話題を送信してください。</p>
+            <div class="talkbox">
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:22</div>
+                </div>
+                <p>@GCT-2 こんにちは</p>
+              
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:22</div>
+                </div>
+                <p>こんにちは！</p>
+            
+            </div>
+
+            <h1>3-2. 教育データがまだない場合</h1>
+            <p>@GCT-2でメンションし、その後に続いて質問や話題を送信してください。<br>
+                データが無ければGCT-2から正しい回答や意味を教えてほしいと返してくれます。<br>
+                正しい回答や意味を教えてあげるとそれを学習して今後の回答に活かしてくれます！<br>
+                教育をしたくない場合は「むり！！」(全角)と返信するようにお願いします。</p>
+            <div class="talkbox">
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:23</div>
+                </div>
+                <p>@GCT-2 こんばんは</p>
+              
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:23</div>
+                </div>
+                <p>申し訳ありませんが、どうお答えすればよいのかわからないので、正しい回答や詳細を教えていただけますか？<br>
+                    ※不可能な場合「むり！！」と送信してください。<br>
+                    ※送信されるとBot公開サイトの注意事項にあることを承知し、同意されるとみなされます。</p>
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:23</div>
+                </div>
+                <p>こんばんは～</p>
+
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:24</div>
+                </div>
+                <p>ありがとうございました！勉強になります！</p>
+            
+            </div>
+
+            <h1>3-2. なにか追加で教えたい場合</h1>
+            <p>@GCT-2でメンションし、その後に続いて「教えたい！」(全角)と送ってください！<br>
+                すでにある教育データに加えて新たなデータを追加できます。<br>
+                これによりGCT-2の頭が更に良くなります。</p>
+            <div class="talkbox">
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:24</div>
+                </div>
+                <p>@GCT-2 教えたい！</p>
+              
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:24</div>
+                </div>
+                <p>ありがとうございます！<br>
+                    まず、覚えさせたい言葉をどうぞ！</p>
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:24</div>
+                </div>
+                <p>こんばんは</p>
+
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:24</div>
+                </div>
+                <p>詳細やそれに対する正しい回答を教えていただけますか？</p>
+
+                <div class="flex">
+                    <img src="img/user.png">
+                    <div class="name">アコダニアン左村</div>
+                    <div class="date">今日 21:25</div>
+                </div>
+                <p>こんばんは！！</p>
+
+                <div class="flex">
+                    <img src="img/gct-2.png">
+                    <div class="name">GCT-2</div>
+                    <div class="bot">Bot</div>
+                    <div class="date">今日 21:25</div>
+                </div>
+                <p>ありがとうございました！勉強になります！</p>
+            
+            </div>
+            <hr>
+            <h1>4. Notice</h1>
+            <h2>注意事項</h2>
+            <p>以下の注意事項はDiscord Bot版に対する注意事項です。</p>
+            <p>- 覚えさせたことはご自身では消せません。<br>
+                - 一度覚えたことは私だいちまるがデータを削除するまで覚え続けます。<br>
+                - 個人情報漏洩、各サーバー間での情報漏洩等問題が発生した場合、私だいちまるは一切責任を取りません。<br>
+                - 絶対に機密情報は教えないでください。<br>
+                - バグやエラー等発生時、GCTがオフライン状態になる場合がございます。<br>
+                - もし誤って機密情報等を送信してしまった場合は早急に私だいちまるへお知らせください、サポートサーバーからも受け付けております。(早急に対応できない場合がございます。)<br>
+                - 不適切な情報・特定の個人を連想させ、それに対しての意見や発言を送信しないでください。見つけ次第削除させていただきます。<br>
+                - これは人工無能です、人工知能と同じように扱わないでください。また、多くの方からの教育データをもとにして生成しているので喋り方等が頻繁にかわることがございます。<br>
+                - 「@GCT-2 このBotについて詳細を教えて！」と送信するとこのBotについての情報を返信します。<br>
+                - 政治的、宗教的なことは教えないでください。(たけのこきのこ戦争等)<br>
+                - このBotを介して起きた問題に関しましても私だいちまるは一切責任を取りません。<br>
+                - 公序良俗に反する、犯罪を助長させるような使い方はおやめください。<br>
+                - 商用、非商用問わず0円でご利用いただけます。<br>
+                - 予告なくサービスを終了させる可能性がございます。<br>
+                - GCTが覚えている内容へ対してのクレームはおやめください。<br>
+                - このBotは「@GCT-2」とメンションで呼び出された場合にのみ呼びたし文に含まれる質問や話題と、学習データがない場合はGCT-2からの質問に対する回答を、追加で教える場合は追加の教える内容をサーバーより収集します。<br>
+                - 上記以外のタイミングでサーバーからデータを収集し、保存することは一切ありません。<br>
+                - ご利用は完全に自己責任でお願いします。<br>
+                - 予告なくこの注意事項を変更する場合がございます。<br>
+                - この注意事項を確認し、同意された場合にのみご利用ください。<br>
+                - 他に質問等ございましたらお気軽にお聞きください。
+            </p>
+            <hr>
+            <h1>4. Install Bot</h1>
+            <h2>Bot導入</h2>
+
+            <div class="dlw">
+                <p>GCT-2</p>
+                <p>2024/03/19</p>
+                <div class="dlbutton">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1219328952548458590&permissions=824633936960&scope=bot">Add to Discord</a>
+                </div>
+                <div class="dlbutton">
+                    <a href="https://discord.gg/xBam5rdSQ9" id="generated-id-1710837466297-3m4jf13zq">Support server</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="https://daichimarukana.com" class="foo">©2022 - 2024 daichimarukana</a>
+</main>
+</body>
